@@ -1,0 +1,11 @@
+img.right {
+    float: right
+}
+
+.post .post-content p img.screenshot {
+    max-width: 320px;
+}
+
+ul ul, ol ul, ol ol, ul ol {
+    margin-left: 1em;
+}

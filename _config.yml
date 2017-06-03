@@ -1,0 +1,41 @@
+# Site settings
+title: CamViewer for IP Web Cams
+url: "http://camviewerip.com/"
+baseurl: "" # the prefix of your site uri, eg. `/bohu-jekyll-theme` or just one slash `/`
+#timezone: Asia/Shanghai
+description: "Help and support for the CamViewer App for IP Web Cams that supports Foscam, Tenvis and many other types of camera."
+# Your information
+#email: me@zhaoyuxiang.cn
+author: John McKerrell
+twitter_username: CamviewerIP
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: zhaoyuxiang   
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao  
+# get one: http://duoshuo.com/create-site/
+
+permalink: pretty
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+#paginate: 2
+#paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

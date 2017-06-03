@@ -1,0 +1,21 @@
+<div class="sidebar">
+  <img class="appIcon" src="{{ "/g/CamViewerIcon.png" | prepend: site.baseurl }}" alt="{{ site.author }}">
+  <img class="avatar" src="{{ "/g/iPhoneCamViewer.png" | prepend: site.baseurl }}" alt="{{ site.author }}">
+  <div class="col-box-title name myFont css2dcc4b9955748">{{ site.author }}</div>
+  <p class="myFont css2dcc4b9955748">{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.weibo_username %}
+    <a href="https://weibo.com/{{ site.weibo_username }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    {% endif %}
+  </p>
+
+</div>
