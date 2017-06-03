@@ -1,6 +1,6 @@
 Jekyll template based on `git@github.com:LLawlight/bohu-jekyll-theme.git` and licensed under the MIT license.
 
-Content is copyright John McKerrell, all rights reserved.
+Markdown website content is copyright John McKerrell, all rights reserved.
 
 Jekyll theme readme continues:
 
